@@ -3,8 +3,59 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HOMEPAGE</title>
-    <link href="style.css" rel="stylesheet" type="text/css" media="all">
+    <title>HOME</title>
+    <link href="search.css" rel="stylesheet" type="text/css" media="all">
   </head>
  
   <body>
+
+<header>
+
+    <div class="search-bar">
+
+  <input 
+
+    id="search" 
+
+    type="search" 
+
+    placeholder="Start typing to search..." 
+
+    list="search-suggestions" 
+
+    autocomplete="off"
+
+  />
+
+  
+
+  <datalist id="search-suggestions">
+
+    <option value="JavaScript">
+
+    <option value="CSS">
+
+    <option value="Accessibility">
+
+    <option value="Web Design">
+
+  </datalist>
+
+</div>
+
+</header>
+
+<main class="container">
+
+    <div class="search-display"></div>
+
+    
+
+    <div class="posts-container"></div>
+
+</main>
+
+
+    
+  </body>
+</html>
