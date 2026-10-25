@@ -3,7 +3,7 @@ const postsContainer = document.querySelector(".posts-container");
 const searchDisplay = document.querySelector(".search-display");
 
 fetch(
-  "https://gist.githubusercontent.com/jemimaabu/564beec0a30dbd7d63a90a153d2bc80b/raw/0b7e25ba0ebee6dbba216cfcfbae72d460a60f26/tutorial-levels"
+  "https://gist.githubusercontent.com/jemimaabu/564bhttps://gist.github.com/ttsted/f539f113f388ee340d6e14b51075b9e7"
 ).then(async (response) => {
   postsData = await response.json();
   postsData.map((post) => createPost(post));
