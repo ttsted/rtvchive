@@ -3,6 +3,8 @@ element {
 .post__posts {
 	margin-bottom: 40px;
 	height: 463px;
+
+        
 }
 .post__posts {
 	position: relative;
@@ -11,7 +13,7 @@ element {
 	margin-right: 30px;
 }
 .post__posts {
-	display: block;
+	display: box;
 	position: relative;
 	overflow: hidden;
 }
@@ -26,10 +28,27 @@ element {
 }
 .post {
 	list-style: none;
+
 }
 ol {
 	list-style: auto;
 }
 ol, ul, menu {
 	list-style: none;
+}
+
+.box {
+       margin: 10px;
+       width: 500px;
+       height: 300px;
+justify-content: center;
+  align-items: center; 
+  
+
+}
+
+.post_posts-preview-image {
+      width: 300px;
+
+
 }
